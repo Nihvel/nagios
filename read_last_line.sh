@@ -14,6 +14,10 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 # ------------------------------------------ #
+# What do I need this for?
+# If you create your own log and the last line tells you whether your script failed or succeeded, 
+# this script will match 2 words of your choice (best if OK : ERROR) with the last row of your log file.
+# ------------------------------------------ #
 # Usage: 
 # 1. 
 #    Add to nrpe.cfg:
