@@ -14,6 +14,11 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 # ------------------------------------------ #
+# What do I need this for?
+# A way to manage the problems related to the mailbox when it is full, on a Ubuntu system.
+# I match the mailbox_size_limit in /etc/postfix/main.cf with the current size of the mailbox.
+# When the mailbox is close to be full, this script will empty it. Supports Performance Data.
+# ------------------------------------------ #
 # Usage: 
 # 1. 
 #    Edit sudoers (visudo) and add:
